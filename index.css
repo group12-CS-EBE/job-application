@@ -1,0 +1,97 @@
+body{
+    background-color: #061E2F;
+}
+input:focus,textarea:focus{
+  border:1px solid yellow;
+}
+input:invalid,select:invalid,textarea:invalid{
+  border:1px solid red;
+}
+input:valid,select:valid,textarea:valid{
+  border:2px solid green;
+}
+.radio-group input[type="radio"]:checked{
+  border:1px solid green;
+  background-color:green;
+  box-shadow:1px 1px 1px 1px green;
+}
+.radio-group input[type="radio"]:checked + label {
+  color: blue;
+}
+
+h1{
+    text-align: center;
+    margin: 50px auto;
+}
+.container{ 
+    background-color:#1E1532;
+    color: white;
+    width: 60%;
+    max-width: 700px;
+    min-width: 300px;
+    height: 700px;
+    margin:100px auto;
+    box-shadow: 10px 10px 10px 10px grey ;
+    border: 2px solid rgb(226, 213, 213);
+    border-radius: 10px;
+    text-align: center;
+}
+input[type="text"],input[type="email"]{
+    max-width: 100%;
+    min-width:90%;
+    height:30px;
+    margin:10px auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+#position{
+    max-width: 100%;
+    min-width: 90%;
+    height:30px;
+    margin:5px auto;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.radio-group{
+    border-radius: 10px;
+    max-width:88%;
+    min-width: 85%;
+    margin:5px  ;
+    margin: 10px auto;
+    
+}
+button{
+    max-width: 100%;
+    min-width: 95%;
+    margin:5px 10px ;
+    height: 40px;
+    background-color: green;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 3px solid green;
+}
+button:hover{
+    background-color:orange;
+    border: 3px solid orange;
+  }
+textarea{
+    margin: 10px auto;
+    max-width: 100%;
+    min-width: 90%;
+    height: 100px;
+}
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 5px;
+}
+.full{
+  margin-right:30px ;
+}
+
